@@ -35,7 +35,7 @@ class Ticker(TickerBase):
         super(Ticker, self).__init__(ticker, session=session, proxy=proxy)
         self._expirations = {}
         self._underlying = {}
-        self._test = []
+        self._test2 = {}
 
     def __repr__(self):
         return f"yfinance.Ticker object <{self.ticker}>"
